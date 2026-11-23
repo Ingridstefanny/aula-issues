@@ -1,0 +1,13 @@
+
+function corAleatoria() {
+            const letras = '0123456789ABCDEF';
+            let cor = '#';
+            for (let i = 0; i < 6; i++) {
+                cor += letras[Math.floor(Math.random() * 16)];
+            }
+            return cor;
+        }
+
+        document.addEventListener("click", function(){
+            document.body.style.backgroundColor - corAleatoria();
+        });
