@@ -1,0 +1,18 @@
+body{
+    color:blue;
+    background-color: purple;
+    text-align: center;
+}
+
+header{
+    color:orange;
+    background-color: blanchedalmond;
+    text-align: left;
+}
+
+footer{
+    color:green;
+    background-color: yellow;
+    text-align: right;
+}
+
